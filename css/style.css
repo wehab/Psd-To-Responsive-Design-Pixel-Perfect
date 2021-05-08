@@ -1,0 +1,223 @@
+@font-face {
+  src: url('../fonts/OpenSans-Bold.ttf');
+  font-family: SansBold;
+}
+@font-face {
+  src: url('../fonts/OpenSans-Light.ttf');
+  font-family: SansLight;
+}
+@font-face {
+  src: url('../fonts/OpenSans-Semibold.ttf');
+  font-family: SansSemiBold;
+}
+@font-face {
+  src: url('../fonts/OpenSans-Regular.ttf');
+  font-family: SansRegular;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(246, 59, 146, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+body::-webkit-scrollbar {
+    width: 16px;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(246, 59, 146, 1) ;
+  outline: 2px solid slategrey;
+}
+.navRow{
+  padding: 20px 0px;
+}
+.logo
+{
+  width: 120px;
+  height: 100px;
+}
+.mynav{
+  color: #2A2C2D;
+  font-family: SansBold;
+  text-align: center;
+}
+.mynav:hover{
+  color: #F63B92;
+}
+.bgimg1{
+  background-image: url('../images/back1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.jumbotron1{
+  background-color: transparent;
+  margin: 120px 0px;
+}
+.whiteLine{
+  width: 60px;
+  border-bottom: 2px solid #fff;
+}
+h1{
+  font-family: SansLight;
+  padding: 20px 0px;
+  color: #fff;
+}
+.visual{
+  font-family: SansSemiBold;
+}
+.SameRowSpace{
+  padding: 120px 0px;
+}
+h2{
+  font-family: SansLight;
+  color: #2A2C2D;
+  padding-bottom: 30px;
+}
+.a{
+  font-family: SansSemiBold;
+}
+.pinkLine{
+  width: 60px;
+  border: 1px solid #F63B92;
+}
+.dumyText{
+  font-family: SansRegular;
+  padding-top: 20px;
+}
+.bgimg2{
+  background-image: url('../images/back2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+h3{
+  font-family: SansLight;
+  font-size: 33px;
+  padding-bottom: 15px;
+  color: #FFF;
+}
+.do{
+  font-family: SansSemiBold;
+}
+.jumbotron2{
+  margin: 50px 0px;
+  background-color: transparent;
+}
+.dumyText2{
+  color: #fff;
+  font-family: SansRegular;
+  padding-top: 20px;
+}
+.line{
+  margin-bottom: 100px;
+}
+h5{
+  font-family: SansRegular;
+  padding-top: 40px;
+  font-size: 20px;
+}
+.lorem{
+  font-family: SansRegular;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.bgimg3{
+  background-image: url('../images/back3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.dumyText3{
+  padding-top: 20px;
+}
+.Space{
+  padding-top: 80px;
+}
+.bg{
+  background-color: #ECECEC;
+}
+form{
+  margin-top:60px;
+}
+input::placeholder{
+  font-family: SansRegular;
+  color: #BEBEBE;
+}
+.form-heading{
+  font-size: 38px;
+}
+.formInputs{
+  width: 60%;
+  height: 50px;
+  border: 1px solid #F63B92;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+.area{
+  height: 200px;
+}
+.area::placeholder{
+  color: #BEBEBE;
+  font-family: SansRegular;
+}
+.btnSubmit{
+  margin-top: 30px;
+  border-radius: 2px;
+  background-color: #F63B92;
+  border-style: none;
+  width: 160px;
+  height: 40px;
+  font-family: SansBold;
+}
+.btnSubmit:hover{
+  background-color: #fff;
+  border: 2px solid #F63B92;
+  color: #F63B92;
+}
+.bgimg4{
+  background-image: url('../images/back4.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.lpm{
+  color: #fff;
+  font-size: 50px;
+  padding: 70px 0px;
+  display: inline-block;
+}
+.icon-text{
+  padding-left: 15px;
+  font-family: SansBold;
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+}
+.global{
+  font-size: 14px;
+  font-family: SansRegular;
+}
+
+/* MEDIA QUERIES */
+@media (max-width:992px) {
+  ul{
+    margin: 20px 0px;
+  }
+  .mynav{
+    padding: 15px 0px;
+  }
+  .formInputs{
+    width: 100%;
+  }
+}
+@media (max-width:768px) {
+  .lpm{
+    padding: 40px 0px;
+  }
+}
